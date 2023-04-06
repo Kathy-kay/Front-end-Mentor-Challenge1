@@ -108,7 +108,7 @@ nav a:hover{
 .hero-new-content{
   width: 85%;
   margin-left: 50px;
-  height: 530px;
+  min-height: 530px;
   background-color: hsl(240, 100%, 5%);
   padding: 60px 40px ;
 
@@ -250,16 +250,22 @@ nav a:hover{
     }
     .category-content p{
       font-size: 25px;
-      line-height:1.5 ;
+      line-height:1.2 ;
+    }
+    .category-img{
+      padding-top: 30px;
     }
     .category-content h1{
-      font-size: 50px;
+      font-size: 40px;
     }
     .category-content h3{
-      font-size: 30px;
+      font-size: 25px;
     }
     .category-img img{
-      height: 200px;
+      min-height: 320px;
+      width: 170px;
+      margin-top: 10px;
+      
     }
     
 }
